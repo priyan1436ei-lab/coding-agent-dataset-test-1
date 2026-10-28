@@ -1,0 +1,307 @@
+{
+  "taxonomy_version": "2.0.0",
+  "updated_at": "2026-10-28T19:35:00Z",
+  "languages": {
+    "Ada": {
+      "extensions": [".adb", ".ads"],
+      "comment_prefix": "--",
+      "category": "systems",
+      "paradigm": "imperative, object-oriented",
+      "syntax_validator": "balanced_brackets_and_keywords"
+    },
+    "Assembly": {
+      "extensions": [".asm", ".s", ".S"],
+      "comment_prefix": ";",
+      "category": "low_level",
+      "paradigm": "low-level, machine-level",
+      "syntax_validator": "instruction_format"
+    },
+    "Bash": {
+      "extensions": [".sh", ".bash"],
+      "comment_prefix": "#",
+      "category": "scripting",
+      "paradigm": "command_shell",
+      "syntax_validator": "bash_syntax"
+    },
+    "C": {
+      "extensions": [".c", ".h"],
+      "comment_prefix": "//",
+      "category": "systems",
+      "paradigm": "imperative, procedural",
+      "syntax_validator": "balanced_brackets"
+    },
+    "C++": {
+      "extensions": [".cpp", ".hpp", ".cc", ".cxx"],
+      "comment_prefix": "//",
+      "category": "systems",
+      "paradigm": "multi_paradigm",
+      "syntax_validator": "balanced_brackets"
+    },
+    "C#": {
+      "extensions": [".cs"],
+      "comment_prefix": "//",
+      "category": "general",
+      "paradigm": "object_oriented, functional",
+      "syntax_validator": "balanced_brackets"
+    },
+    "Clojure": {
+      "extensions": [".clj", ".cljs"],
+      "comment_prefix": ";",
+      "category": "functional",
+      "paradigm": "lisp, functional",
+      "syntax_validator": "balanced_brackets"
+    },
+    "COBOL": {
+      "extensions": [".cbl", ".cob"],
+      "comment_prefix": "*",
+      "category": "legacy_business",
+      "paradigm": "imperative, procedural",
+      "syntax_validator": "column_format"
+    },
+    "CSS": {
+      "extensions": [".css", ".scss", ".sass"],
+      "comment_prefix": "/*",
+      "category": "markup_styling",
+      "paradigm": "stylesheet",
+      "syntax_validator": "css_rule_balancer"
+    },
+    "D": {
+      "extensions": [".d"],
+      "comment_prefix": "//",
+      "category": "systems",
+      "paradigm": "multi_paradigm",
+      "syntax_validator": "balanced_brackets"
+    },
+    "Dart": {
+      "extensions": [".dart"],
+      "comment_prefix": "//",
+      "category": "application",
+      "paradigm": "client_optimized, object_oriented",
+      "syntax_validator": "balanced_brackets"
+    },
+    "Elixir": {
+      "extensions": [".ex", ".exs"],
+      "comment_prefix": "#",
+      "category": "distributed",
+      "paradigm": "functional, concurrent",
+      "syntax_validator": "balanced_brackets"
+    },
+    "Erlang": {
+      "extensions": [".erl", ".hrl"],
+      "comment_prefix": "%",
+      "category": "distributed",
+      "paradigm": "actor_model, functional",
+      "syntax_validator": "balanced_brackets"
+    },
+    "Fortran": {
+      "extensions": [".f90", ".f95", ".f03", ".for"],
+      "comment_prefix": "!",
+      "category": "scientific",
+      "paradigm": "numerical, procedural",
+      "syntax_validator": "balanced_brackets_and_keywords"
+    },
+    "Go": {
+      "extensions": [".go"],
+      "comment_prefix": "//",
+      "category": "backend_systems",
+      "paradigm": "concurrent, imperative",
+      "syntax_validator": "balanced_brackets"
+    },
+    "Haskell": {
+      "extensions": [".hs", ".lhs"],
+      "comment_prefix": "--",
+      "category": "functional",
+      "paradigm": "pure_functional, lazy",
+      "syntax_validator": "balanced_brackets_and_keywords"
+    },
+    "HTML": {
+      "extensions": [".html", ".htm"],
+      "comment_prefix": "<!--",
+      "category": "markup_styling",
+      "paradigm": "markup",
+      "syntax_validator": "html_tag_balancer"
+    },
+    "Java": {
+      "extensions": [".java"],
+      "comment_prefix": "//",
+      "category": "enterprise",
+      "paradigm": "object_oriented",
+      "syntax_validator": "balanced_brackets"
+    },
+    "JavaScript": {
+      "extensions": [".js", ".jsx", ".mjs"],
+      "comment_prefix": "//",
+      "category": "web_fullstack",
+      "paradigm": "event_driven, functional, object_oriented",
+      "syntax_validator": "balanced_brackets"
+    },
+    "Julia": {
+      "extensions": [".jl"],
+      "comment_prefix": "#",
+      "category": "scientific",
+      "paradigm": "multiple_dispatch, dynamic",
+      "syntax_validator": "balanced_brackets_and_keywords"
+    },
+    "Kotlin": {
+      "extensions": [".kt", ".kts"],
+      "comment_prefix": "//",
+      "category": "mobile_backend",
+      "paradigm": "modern_static, object_oriented",
+      "syntax_validator": "balanced_brackets"
+    },
+    "Lisp": {
+      "extensions": [".lisp", ".lsp"],
+      "comment_prefix": ";",
+      "category": "functional",
+      "paradigm": "symbolic, functional",
+      "syntax_validator": "balanced_brackets"
+    },
+    "Lua": {
+      "extensions": [".lua"],
+      "comment_prefix": "--",
+      "category": "embedded_scripting",
+      "paradigm": "lightweight_dynamic",
+      "syntax_validator": "balanced_brackets_and_keywords"
+    },
+    "MATLAB": {
+      "extensions": [".m"],
+      "comment_prefix": "%",
+      "category": "scientific",
+      "paradigm": "matrix_computation",
+      "syntax_validator": "balanced_brackets_and_keywords"
+    },
+    "Nim": {
+      "extensions": [".nim"],
+      "comment_prefix": "#",
+      "category": "systems",
+      "paradigm": "statically_typed, metaprogramming",
+      "syntax_validator": "balanced_brackets_and_keywords"
+    },
+    "OCaml": {
+      "extensions": [".ml", ".mli"],
+      "comment_prefix": "(*",
+      "category": "functional",
+      "paradigm": "modular_functional",
+      "syntax_validator": "balanced_brackets_and_keywords"
+    },
+    "Perl": {
+      "extensions": [".pl", ".pm"],
+      "comment_prefix": "#",
+      "category": "scripting",
+      "paradigm": "regular_expressions, dynamic",
+      "syntax_validator": "balanced_brackets"
+    },
+    "PHP": {
+      "extensions": [".php", ".phtml"],
+      "comment_prefix": "//",
+      "category": "web_backend",
+      "paradigm": "server_side, object_oriented",
+      "syntax_validator": "balanced_brackets"
+    },
+    "PowerShell": {
+      "extensions": [".ps1", ".psm1"],
+      "comment_prefix": "#",
+      "category": "system_admin",
+      "paradigm": "object_oriented_scripting",
+      "syntax_validator": "balanced_brackets"
+    },
+    "Prolog": {
+      "extensions": [".pl", ".pro"],
+      "comment_prefix": "%",
+      "category": "logic",
+      "paradigm": "declarative_logic",
+      "syntax_validator": "clause_terminator"
+    },
+    "Python": {
+      "extensions": [".py", ".pyw"],
+      "comment_prefix": "#",
+      "category": "general_ml",
+      "paradigm": "multi_paradigm",
+      "syntax_validator": "ast_parse"
+    },
+    "R": {
+      "extensions": [".r", ".R"],
+      "comment_prefix": "#",
+      "category": "statistical",
+      "paradigm": "data_analysis",
+      "syntax_validator": "balanced_brackets"
+    },
+    "Racket": {
+      "extensions": [".rkt"],
+      "comment_prefix": ";",
+      "category": "functional",
+      "paradigm": "scheme, macro_extensible",
+      "syntax_validator": "balanced_brackets"
+    },
+    "Ruby": {
+      "extensions": [".rb"],
+      "comment_prefix": "#",
+      "category": "web_scripting",
+      "paradigm": "pure_object_oriented",
+      "syntax_validator": "balanced_brackets_and_keywords"
+    },
+    "Rust": {
+      "extensions": [".rs"],
+      "comment_prefix": "//",
+      "category": "systems",
+      "paradigm": "memory_safe, concurrent",
+      "syntax_validator": "balanced_brackets"
+    },
+    "Scala": {
+      "extensions": [".scala"],
+      "comment_prefix": "//",
+      "category": "big_data",
+      "paradigm": "functional_object_oriented",
+      "syntax_validator": "balanced_brackets"
+    },
+    "Solidity": {
+      "extensions": [".sol"],
+      "comment_prefix": "//",
+      "category": "smart_contracts",
+      "paradigm": "contract_oriented",
+      "syntax_validator": "balanced_brackets"
+    },
+    "SQL": {
+      "extensions": [".sql"],
+      "comment_prefix": "--",
+      "category": "query_database",
+      "paradigm": "relational_declarative",
+      "syntax_validator": "sql_keyword_parser"
+    },
+    "Swift": {
+      "extensions": [".swift"],
+      "comment_prefix": "//",
+      "category": "apple_ecosystem",
+      "paradigm": "protocol_oriented",
+      "syntax_validator": "balanced_brackets"
+    },
+    "TypeScript": {
+      "extensions": [".ts", ".tsx"],
+      "comment_prefix": "//",
+      "category": "web_fullstack",
+      "paradigm": "statically_typed_javascript",
+      "syntax_validator": "balanced_brackets"
+    },
+    "Verilog": {
+      "extensions": [".v", ".vh", ".sv"],
+      "comment_prefix": "//",
+      "category": "hardware_hdl",
+      "paradigm": "hardware_description",
+      "syntax_validator": "hdl_module_balancer"
+    },
+    "VHDL": {
+      "extensions": [".vhd", ".vhdl"],
+      "comment_prefix": "--",
+      "category": "hardware_hdl",
+      "paradigm": "hardware_description",
+      "syntax_validator": "hdl_architecture_balancer"
+    },
+    "Zig": {
+      "extensions": [".zig"],
+      "comment_prefix": "//",
+      "category": "systems",
+      "paradigm": "manual_memory, compile_time",
+      "syntax_validator": "balanced_brackets"
+    }
+  }
+}

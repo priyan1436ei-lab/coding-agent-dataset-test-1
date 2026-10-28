@@ -1,0 +1,108 @@
+{
+  "input_file": "data/deduplicated/syntax_verified.jsonl",
+  "counts": {
+    "train": 18782,
+    "val": 1108,
+    "test": 1074,
+    "total": 20964
+  },
+  "splits": {
+    "train": "data/final\\train.jsonl",
+    "val": "data/final\\val.jsonl",
+    "test": "data/final\\test.jsonl"
+  },
+  "language_breakdown": {
+    "python": {
+      "train": 15356,
+      "val": 911,
+      "test": 886
+    },
+    "typescript": {
+      "train": 155,
+      "val": 8,
+      "test": 11
+    },
+    "rust": {
+      "train": 8,
+      "val": 0,
+      "test": 0
+    },
+    "go": {
+      "train": 8,
+      "val": 1,
+      "test": 1
+    },
+    "java": {
+      "train": 407,
+      "val": 24,
+      "test": 21
+    },
+    "cpp": {
+      "train": 85,
+      "val": 4,
+      "test": 4
+    },
+    "c": {
+      "train": 6,
+      "val": 0,
+      "test": 1
+    },
+    "sql": {
+      "train": 972,
+      "val": 56,
+      "test": 50
+    },
+    "html": {
+      "train": 610,
+      "val": 47,
+      "test": 37
+    },
+    "javascript": {
+      "train": 829,
+      "val": 40,
+      "test": 48
+    },
+    "css": {
+      "train": 146,
+      "val": 11,
+      "test": 8
+    },
+    "bash": {
+      "train": 200,
+      "val": 6,
+      "test": 7
+    }
+  },
+  "task_breakdown": {
+    "code_generation": {
+      "train": 18135,
+      "val": 1068,
+      "test": 1032
+    },
+    "debugging_repair": {
+      "train": 236,
+      "val": 15,
+      "test": 17
+    },
+    "agent_tool_use": {
+      "train": 78,
+      "val": 4,
+      "test": 3
+    },
+    "bilingual_explanation": {
+      "train": 4,
+      "val": 0,
+      "test": 0
+    },
+    "unit_test_generation": {
+      "train": 234,
+      "val": 15,
+      "test": 19
+    },
+    "code_review": {
+      "train": 95,
+      "val": 6,
+      "test": 3
+    }
+  }
+}

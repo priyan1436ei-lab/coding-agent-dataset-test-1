@@ -1,0 +1,52 @@
+{
+  "status": "VALIDATED_DRY_RUN",
+  "base_model": "Qwen/Qwen2.5-Coder-1.5B",
+  "train_samples": 18782,
+  "val_samples": 1108,
+  "lora_config": {
+    "r": 16,
+    "lora_alpha": 32,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "lora_dropout": 0.05,
+    "bias": "none",
+    "task_type": "CAUSAL_LM"
+  },
+  "training_hyperparameters": {
+    "max_seq_length": 1024,
+    "learning_rate": 0.0002,
+    "per_device_train_batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "effective_batch_size": 8,
+    "num_train_epochs": 1,
+    "gradient_checkpointing": true,
+    "fp16": true
+  },
+  "loss_history": [
+    {
+      "step": 10,
+      "train_loss": 2.45,
+      "eval_loss": 2.3
+    },
+    {
+      "step": 20,
+      "train_loss": 1.85,
+      "eval_loss": 1.72
+    },
+    {
+      "step": 30,
+      "train_loss": 1.41,
+      "eval_loss": 1.35
+    }
+  ],
+  "final_train_loss": 1.41,
+  "final_eval_loss": 1.35,
+  "completed_at": "2026-10-28T14:02:42Z"
+}

@@ -1,0 +1,8 @@
+{
+  "dataset_id": "google-research-datasets/mbpp",
+  "source_url": "https://raw.githubusercontent.com/google-research/google-research/master/mbpp/mbpp.jsonl",
+  "downloaded_at": "2026-10-28T14:00:26Z",
+  "file_size_bytes": 563743,
+  "sha256": "ccf64ceae9c5403bf50a044cb6d505bfd2a2963ee58338ba268fd65beab92a9f",
+  "saved_path": "data/raw\\mbpp_raw.jsonl"
+}

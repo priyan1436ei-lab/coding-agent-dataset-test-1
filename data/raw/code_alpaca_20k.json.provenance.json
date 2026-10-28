@@ -1,0 +1,8 @@
+{
+  "dataset_id": "sahil2801/CodeAlpaca-20k",
+  "source_url": "https://raw.githubusercontent.com/sahil280114/codealpaca/master/data/code_alpaca_20k.json",
+  "downloaded_at": "2026-10-28T14:00:26Z",
+  "file_size_bytes": 8057896,
+  "sha256": "58d136bb7ea8e4b7c5b6ef08831da905d0abfafeb56f8fa519083089dd6a210e",
+  "saved_path": "data/raw\\code_alpaca_20k.json"
+}
